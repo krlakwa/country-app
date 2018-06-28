@@ -10,9 +10,7 @@ import routes from './routes';
 render(
     <Provider store={store}>
         <div>
-            <Router history={hashHistory} routes={routes}>
-
-            </Router>
+            <Router history={hashHistory} routes={routes} />
             <DevTools />
         </div>
     </Provider>,
