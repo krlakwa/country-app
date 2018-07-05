@@ -12,9 +12,9 @@ const Navigation = props => (
                 </div>
                 <div className="collapse navbar-collapse">
                     <ul className="nav navbar-nav">
-                        <li><Link to="/countries">Countries</Link></li>
-                        <li><Link to="/continents">Continents</Link></li>
-                        <li><Link to="/contact">Contact</Link></li>
+                        <li><Link to="/countries">Państwa</Link></li>
+                        <li><Link to="/continents">Kontynenty</Link></li>
+                        <li><Link to="/contact">Kontakt</Link></li>
                     </ul>
                 </div>
             </div>
